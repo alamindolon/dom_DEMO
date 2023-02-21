@@ -34,3 +34,18 @@ document.getElementById('event_listener').addEventListener('click',function()
     const handleStates = document.getElementById('handler_states');
     handleStates.innerText = 'Handle by function onclick attribute';
 })
+
+document.getElementById('post_btn_id').addEventListener('click',function()
+{
+    const commentBox = document.getElementById('comment_box');
+    const commentText = commentBox.value;
+
+    const CommentContainer = document.getElementById('comment_container');
+    const p = document.createElement('p');
+    p.innerText = commentText;
+    CommentContainer.appendChild(p);
+
+    commentBox.value = '';
+
+
+})
