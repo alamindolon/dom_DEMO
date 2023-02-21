@@ -40,9 +40,11 @@ sectionDress.innerHTML = `
     
 </ul>
 
-
-
 `
+
+sectionDress.style.color = 'blue';
+sectionDress.style.border = '2px solid steelblue';
+sectionDress.style.borderRadius = '15px'
 mainContainer.appendChild(sectionDress);
 
 
