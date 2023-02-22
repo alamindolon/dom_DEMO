@@ -49,3 +49,28 @@ document.getElementById('post_btn_id').addEventListener('click',function()
 
 
 })
+
+const mainContainer = document.getElementById('main_container');
+const section = document.createElement('section');
+const h1 = document.createElement('h1');
+h1.innerText = 'this is course';
+section.appendChild(h1);
+
+const ul = document.createElement('ul');
+
+const li = document.createElement('li');
+li.innerText = 'C';
+ul.appendChild(li);
+
+const li2 = document.createElement('li');
+li2.innerText = 'java';
+ul.appendChild(li2);
+
+const li3 = document.createElement('li');
+li3.innerText = 'OOP';
+ul.appendChild(li3);
+
+section.appendChild(ul);
+
+
+mainContainer.appendChild(section);
