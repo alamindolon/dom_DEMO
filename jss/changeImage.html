@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+<img id="image" src="images/A_small_cup_of_coffee.JPG" width="160" height="120">
+<button id="iclick">click</button>
+
+<script>
+document.getElementById("iclick").addEventListener("click", function() {
+    document.getElementById("image").src = "images/87b8cdd81a67d77b61526426132a695d--cup-of-coffee-coffee-coffee.jpg";
+})
+</script>
+
+<p>The original image was smiley.gif, but the script changed it to landscape.jpg</p>
+
+</body>
+</html>
